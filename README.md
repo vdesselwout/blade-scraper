@@ -62,3 +62,7 @@ v6 printing on a Creality K2 Pro:
 - `concepts/`: design studies that led to v5 and v6
 - [BRIEF.md](BRIEF.md): requirements and how the blade is held
 - `tools/`: helper scripts (Creality Print project builder, README renders)
+
+## Licence
+
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/): you may print, share and remix this design for non-commercial use, as long as you credit it and release remixes under the same licence. See [LICENSE](LICENSE).
