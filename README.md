@@ -4,7 +4,7 @@
 
 A 3D-printed razor scraper for standard trapezoid utility blades (61 mm cutting edge). Use it on glass, tiles, labels and paint. It has four PLA parts and needs no screws, other hardware or supports.
 
-**Current version: v6** · [download the latest release](https://github.com/vdesselwout/blade-scraper/releases/latest) · [on Printables](https://www.printables.com/model/1865739-razor-blade-scraper-with-spare-blade-drawer-no-scr) · v6 is test-printed: everything fits, but the guard doesn't slide on straight and tends to snap to one side
+**Current version: v6** · [download the latest release](https://github.com/vdesselwout/blade-scraper/releases/latest) · [on Printables](https://www.printables.com/model/1865739-razor-blade-scraper-with-spare-blade-drawer-no-scr) · v6 is test-printed: everything fits, just not 100% happy with the guard
 
 ![The scraper with a blade fitted](images/scraper.png)
 
@@ -15,7 +15,7 @@ A 3D-printed razor scraper for standard trapezoid utility blades (61 mm cutting 
 ## Features
 
 - **No-tool blade change:** the blade sits on two pegs that go through its notches. The cap slides onto the head on dovetails and clamps the blade, and a small snap stops it creeping forward.
-- **Spare blades in the handle:** a drawer slides out of the butt and holds 5 blades flat, with their edges enclosed. It clicks shut.
+- **Spare blades in the handle:** a drawer slides out of the butt and holds 5 blades flat, with their edges enclosed. It "clicks" shut.
 - **Slim guard:** an open-top guard covers the exposed edge and leaves the head visible.
 - **Size:** 155.5 mm long, with a 31 × 19 mm palm swell. The full set uses about 38 g of PLA.
 
@@ -37,7 +37,7 @@ v6 printing on a Creality K2 Pro:
 
 ## Using it
 
-1. **Fitting a blade:** lay the blade in the cap's pocket with the notches over the pegs and the cutting edge facing forward. Slide the cap backwards onto the head until it clicks.
+1. **Fitting a blade:** lay the blade in the cap's pocket with the notches over the pegs and the cutting edge facing forward. Slide the cap backwards onto the head until it "clicks" into place or cannot slide any further.
 2. **Removing a blade:** pull the cap firmly forward off the head.
 3. **Spare blades:** pull the drawer out of the butt by the groove on its end. Push the stack up through the hole in the tray floor to take the top blade.
 
