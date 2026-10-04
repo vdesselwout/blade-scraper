@@ -47,7 +47,7 @@ Already printed v6? Only the guard changed in v7, so you just need to reprint th
 
 | Version | What changed |
 |---|---|
-| [v7](https://github.com/vdesselwout/blade-scraper/releases/tag/v7) | Guard grips the head instead of the cap, so taking it off no longer pulls the cap and blade off |
+| [v7](https://github.com/vdesselwout/blade-scraper/releases/tag/v7) | Guard grips the head instead of the cap, so taking it off carelessly can no longer take the cap with it |
 | [v6](https://github.com/vdesselwout/blade-scraper/releases/tag/v6) | Open-top guard, 8.4 mm tall instead of 13.7 |
 | [v5](https://github.com/vdesselwout/blade-scraper/releases/tag/v5) | Shorter, slimmer handle with a spare-blade drawer; head flows into the grip |
 | [v4](https://github.com/vdesselwout/blade-scraper/releases/tag/v4) | Tapered dovetails, so fitting the cap no longer drags the blade out |
