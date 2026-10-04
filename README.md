@@ -2,7 +2,7 @@
 
 # Blade scraper
 
-A 3D-printed razor scraper for standard trapezoid utility blades (61 mm cutting edge). Use it on glass, tiles, print beds, labels and paint. It has four PLA parts and needs no screws, other hardware or supports.
+A 3D-printed razor scraper for standard trapezoid utility blades (61 mm cutting edge). Use it on glass, tiles, labels and paint. It has four PLA parts and needs no screws, other hardware or supports.
 
 **Current version: v6** · [download the latest release](https://github.com/vdesselwout/blade-scraper/releases/latest) · v6 is waiting for its test print
 
