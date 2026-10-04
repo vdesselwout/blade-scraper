@@ -10,11 +10,13 @@ A hand-held razor scraper for flat surfaces (glass, tiles, print beds, labels, p
 | Notches | 3.35 mm wide, 3.85 mm deep (to the tip of the round end), centres 6.65 mm apart, centred on the back edge | measured from photo with ruler (±0.2 mm) |
 | Blade retention | Concept A: pegs in the notches, slide-on clamp cap with dovetail and snap | user |
 | Blade exposure | 6 mm beyond the holder | user |
-| Handle | Cranked straight handle, ~120 mm grip, D-shaped section (flat underside, domed top) ~32 mm wide × 26 mm tall at the palm swell, waist near the head, thumb/index-finger dish on top | user / default sizes |
+| Handle | Sleek, shorter, less filament than v4 (v5: 155.5 mm overall, D-section 31 × 19 mm at the palm swell), waist near the head, thumb/index-finger dish on top | user (v5) |
+| Head shape | Flows smoothly into the grip; sole, dovetails, grooves and snap stay as v4 | user (v5) |
+| Blade storage | Spare blades kept safely inside the handle: drawer from the butt, 5 blades flat, edges enclosed, clicks shut | user (v5) |
 | Blade guard | Separate slide-on sheath over the blade and the front of the head | user |
 | Material / printer | PLA, 0.4 mm nozzle, bed ≥ 220 mm | user |
 | Warping | Curved plan outline with no long straight walls, rounded ends, 0.6 mm bed chamfers; every part prints without supports | user |
-| Hardware | None. Three printed parts: body, cap, guard | user |
+| Hardware | None. Four printed parts: body, cap, guard, blade drawer | user |
 
 ## How the blade is held
 
@@ -29,7 +31,7 @@ Seen from the side, top to bottom: the body (head and handle), then the blade, t
 
 ## Why "cranked" becomes "rising handle"
 
-The body prints on its flat underside, so the handle's underside has to stay on the bed: a real downward bend would need supports. Instead the grip's top rises from about 7 mm at the head to 26 mm at the palm swell, so the handle's centre line climbs like a crank while the underside stays flat. Held at a normal scraping angle, the underside lifts away from the surface along the whole length.
+The body prints on its flat underside, so the handle's underside has to stay on the bed: a real downward bend would need supports. Instead the grip's top rises from about 7 mm at the head to 19 mm at the palm swell (26 mm before v5), so the handle's centre line climbs like a crank while the underside stays flat. Held at a normal scraping angle, the underside lifts away from the surface along the whole length.
 
 Interfaces
 - Blade ↔ cap pocket: +0.25 mm clearance on the outline, pocket depth 0.45 mm (the blade stands 0.15 mm proud).
@@ -37,10 +39,13 @@ Interfaces
 - Pegs ↔ body grooves: groove 3.4 mm wide, 1.8 mm deep, open at the front, closed at the stop.
 - Cap ↔ head dovetail: 45°, 2 mm high, 0.1 mm overlap that sets the clamping force.
 - Guard ↔ head: friction fit over the cap walls, 0.3 mm clearance plus two small bumps.
+- Drawer ↔ channel: 23 × 4.8 mm channel, 0.2 mm clearance per side and over the top.
+- Drawer catch: two 10 × 1.2 mm arms flex sideways; 0.7 mm bumps click into 0.6 mm grooves in the channel walls (0.5 mm flex while sliding).
 
 Out of scope / nice-to-have
-- Adjustable blade exposure, blade storage in the handle, hang hole, text or logo.
+- Adjustable blade exposure, hang hole, text or logo.
 
 Assumptions to check
 - Notch values come from a photo, so they're good to about ±0.2 mm. The first print is a small **test-fit piece** (the head plus cap, about 10 minutes) to check the pegs, pocket, dovetail and snap before printing the full handle.
 - The 0.1 mm dovetail overlap (the clamping force) may need tuning on your printer. It's a single parameter, `clamp_interference`.
+- The drawer catch force depends on the printer; `catch_h` (bump height) tunes it. The drawer test-fit piece (about 6 g) checks the sliding fit and the click.
