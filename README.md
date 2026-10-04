@@ -27,7 +27,7 @@ Each [release](https://github.com/vdesselwout/blade-scraper/releases) has three 
 - `scraper-vN.3mf`: the same layout as a Creality Print project, with print settings included
 - `scraper-vN-parts.zip`: each part as its own STL
 
-Print in PLA with a 0.4 mm nozzle, 2 walls and 15% infill. Print every part as laid out (the guard stands on its open end). No supports are needed.
+Print in PLA with a 0.4 mm nozzle, 2 walls and 15% infill. Print every part as laid out; no supports are needed. The guard stands on its nose with its open end up; if it comes loose from the bed, turn on a brim. The only bridges are short ones: the two 3.4 mm peg grooves under the head and the 23 mm roof of the drawer channel in the handle.
 
 ![All four parts laid out for printing](images/scraper-print-bed.png)
 

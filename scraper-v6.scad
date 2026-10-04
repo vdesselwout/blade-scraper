@@ -15,6 +15,8 @@
 //     It closes only over the exposed blade; behind the nose it is a frame that hooks over the cap's
 //     side walls and lets the head show through. Same inside fit as before (slot, cap zone, bumps,
 //     mouth lead-in); walls 1.6 -> 1.2 mm.
+//     Fixed in place: the guard prints nose down with a flat nose (printed mouth down, the open top's
+//     front edge and the end of the blade slot were 51-62 mm bridges).
 // Four printed parts, no hardware: body (handle + head), cap (holds the blade), guard, blade drawer.
 // Axes (use = print orientation of the body): X along the tool, cutting edge at x = 0,
 // handle towards +X. The blade lies in z = -0.6..0, the body sits on top (z >= 0), the cap below.
@@ -333,8 +335,8 @@ module guard() {
     xm = x_front + guard_back;
     difference() {
         union() {
-            hull() { g_slice(x0, 1); g_slice(x0 + 1); }
-            hull() { g_slice(x0 + 1); g_slice(x_front + 0.5); }
+            hull() { g_slice(x0, bed_chamfer); g_slice(x0 + bed_chamfer); }   // flat nose: it prints on the bed
+            hull() { g_slice(x0 + bed_chamfer); g_slice(x_front + 0.5); }
             hull() { g_slice(x_front + 0.5); g_slice(xm); }
         }
         // the full 61 mm cutting edge has to pass the mouth on the way in
@@ -362,7 +364,9 @@ module guard() {
 
 // ---------- layout ----------
 module print_cap() translate([0, 0, -cap_z0]) cap();
-module print_guard() translate([0, 0, x_front + guard_back]) rotate([0, 90, 0]) guard();
+// The guard prints standing on its nose, open end up: every inside surface then widens going up.
+// (Mouth down, the end of the blade slot and the front of the open top were 51-62 mm bridges.)
+module print_guard() translate([0, 0, 0.5 + guard_t]) rotate([0, -90, 0]) guard();
 module print_drawer() translate([0, 0, -ch_z0]) drawer();
 
 module scraper(sel = part_sel, pull = 60) {
