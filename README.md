@@ -4,7 +4,7 @@
 
 A 3D-printed razor scraper for standard trapezoid utility blades (61 mm cutting edge). Use it on glass, tiles, labels and paint. It has four PLA parts and needs no screws, other hardware or supports.
 
-**Current version: v6** · [download the latest release](https://github.com/vdesselwout/blade-scraper/releases/latest) · [on Printables](https://www.printables.com/model/1865739-razor-blade-scraper-with-spare-blade-drawer-no-scr) · v6 is test-printed: everything fits, just not 100% happy with the guard
+**Current version: v7** · [download the latest release](https://github.com/vdesselwout/blade-scraper/releases/latest) · [on Printables](https://www.printables.com/model/1865739-razor-blade-scraper-with-spare-blade-drawer-no-scr) · v7 changes only the guard, which now holds on to the handle instead of the cap; waiting for a test print
 
 ![The scraper with a blade fitted](images/scraper.png)
 
@@ -16,7 +16,7 @@ A 3D-printed razor scraper for standard trapezoid utility blades (61 mm cutting 
 
 - **No-tool blade change:** the blade sits on two pegs that go through its notches. The cap slides onto the head on dovetails and clamps the blade, and a small snap stops it creeping forward.
 - **Spare blades in the handle:** a drawer slides out of the butt and holds 5 blades flat, with their edges enclosed. It "clicks" shut.
-- **Slim guard:** an open-top guard covers the exposed edge and leaves the head visible.
+- **Slim guard:** an open-top guard covers the exposed edge and leaves the head visible. It grips the head, not the cap, so taking it off never pulls the cap and blade with it.
 - **Size:** 155.5 mm long, with a 31 × 19 mm palm swell. The full set uses about 38 g of PLA.
 
 ## Printing
@@ -35,6 +35,8 @@ v6 printing on a Creality K2 Pro:
 
 ![Timelapse of the v6 parts printing on a Creality K2 Pro](images/scraper-v6-print.gif)
 
+Already printed v6? Only the guard changed in v7, so you just need to reprint the guard.
+
 ## Using it
 
 1. **Fitting a blade:** lay the blade in the cap's pocket with the notches over the pegs and the cutting edge facing forward. Slide the cap backwards onto the head until it "clicks" into place or cannot slide any further.
@@ -45,6 +47,7 @@ v6 printing on a Creality K2 Pro:
 
 | Version | What changed |
 |---|---|
+| [v7](https://github.com/vdesselwout/blade-scraper/releases/tag/v7) | Guard grips the head instead of the cap, so taking it off no longer pulls the cap and blade off |
 | [v6](https://github.com/vdesselwout/blade-scraper/releases/tag/v6) | Open-top guard, 8.4 mm tall instead of 13.7 |
 | [v5](https://github.com/vdesselwout/blade-scraper/releases/tag/v5) | Shorter, slimmer handle with a spare-blade drawer; head flows into the grip |
 | [v4](https://github.com/vdesselwout/blade-scraper/releases/tag/v4) | Tapered dovetails, so fitting the cap no longer drags the blade out |
