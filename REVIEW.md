@@ -1,6 +1,6 @@
 # Blade scraper — review log
 
-Approved version: **v1** (2026-10-03); v3 guard (fits the printed v1) and v4 tapered dovetails pending test prints; v5 (new handle, blade drawer) pending review. Print files: scraper.stl (all three parts), scraper-body.stl, scraper-cap.stl, scraper-guard.stl, scraper-test-fit.stl
+Approved version: **v1** (2026-10-03); v3 guard (fits the printed v1) and v4 tapered dovetails pending test prints; v5 (new handle, blade drawer) pending review. Print files are in prints/vN/: v1 body, cap, test-fit piece and the sliced gcode; v3 guard (plus all three parts with the v3 guard); v4 all parts and test-fit project; v5 all four parts and the drawer test-fit project. Design concepts are in concepts/.
 
 | Version | Changes | Why | Verdict |
 |---|---|---|---|
