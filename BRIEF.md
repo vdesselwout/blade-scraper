@@ -13,7 +13,7 @@ A hand-held razor scraper for flat surfaces (glass, tiles, print beds, labels, p
 | Handle | Sleek, shorter, less filament than v4 (v5: 155.5 mm overall, D-section 31 × 19 mm at the palm swell), waist near the head, thumb/index-finger dish on top | user (v5) |
 | Head shape | Flows smoothly into the grip; sole, dovetails, grooves and snap stay as v4 | user (v5) |
 | Blade storage | Spare blades kept safely inside the handle: drawer from the butt, 5 blades flat, edges enclosed, clicks shut | user (v5) |
-| Blade guard | Separate slide-on sheath over the blade and the front of the head | user |
+| Blade guard | Separate slide-on guard, as slim as possible to match the head (v6: open-top frame, 8.4 mm tall; closed only over the exposed blade) | user (v6) |
 | Material / printer | PLA, 0.4 mm nozzle, bed ≥ 220 mm | user |
 | Warping | Curved plan outline with no long straight walls, rounded ends, 0.6 mm bed chamfers; every part prints without supports | user |
 | Hardware | None. Four printed parts: body, cap, guard, blade drawer | user |
@@ -38,7 +38,7 @@ Interfaces
 - Notches ↔ pegs: pegs Ø 3.0 mm (notch 3.35 mm), sitting against the round end of each notch.
 - Pegs ↔ body grooves: groove 3.4 mm wide, 1.8 mm deep, open at the front, closed at the stop.
 - Cap ↔ head dovetail: 45°, 2 mm high, 0.1 mm overlap that sets the clamping force.
-- Guard ↔ head: friction fit over the cap walls, 0.3 mm clearance plus two small bumps.
+- Guard ↔ head: friction fit over the cap walls, 0.3 mm clearance plus two small bumps. From v6 the guard is open over the head (opening = head band + 0.6 mm) and its rails hook over the cap walls.
 - Drawer ↔ channel: 23 × 4.8 mm channel, 0.2 mm clearance per side and over the top.
 - Drawer catch: two 10 × 1.2 mm arms flex sideways; 0.7 mm bumps click into 0.6 mm grooves in the channel walls (0.5 mm flex while sliding).
 
